@@ -1,0 +1,123 @@
+body{
+    background-color: #005B41;
+}
+hr{
+    border-top: 2px solid black;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #B80000;
+}
+#slikica{
+    margin-top: 100px;
+}
+#ime{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #FF9800;
+    color: #B80000;
+    text-align: center;
+    width: 344px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+#sifra{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FF9800;
+    color: #B80000;
+    width: 344px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#btn1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    width: 172px;
+    height: 35px;
+    margin-top: 5px;
+    margin-right: 2px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #FF9800;
+    color: #B80000;
+}
+#btn2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    width: 172px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 2px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #FF9800;
+    color: #B80000;
+
+}
+#btn1:hover {
+    background-color: #c57600;
+}
+#btn2:hover {
+    background-color: #c57600;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9)
+{
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+#registrujse{
+    width: 300px;
+    height: 100px;
+    visibility: hidden;
+    background-color: #c57600;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+#out{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+#novoIme{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+#novaSifra{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+#ok{
+    width: 120px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+#ok:hover {
+    background-color: rgb(12, 12, 12);
+}

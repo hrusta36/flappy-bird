@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="icon" type="image/jpg" href="media/images/favicon3.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <h1>DOBRODOŠLI</h1>
+    <hr />
+    <video autoplay loop muted plays-inline class="video">
+      <source
+        src="media/audio/invideo-ai-1080 Flappy Bird_ A Silent Flight 2023-12-17.mp4 Flappy Bird_ A Silent Flight 2023-12-17.mp4"
+      />
+    </video>
+    <div id="registrujse">
+      <center>
+        <output type="text" id="out">Registruj se</output>
+        <br />
+        <input type="text" id="novoIme" placeholder="Unesi novi username" />
+        <br />
+        <input
+          type="password"
+          id="novaSifra"
+          placeholder="Unesi novi password"
+        />
+        <br />
+        <input type="button" value="Registruj se" id="ok" onclick="ok()" />
+      </center>
+    </div>
+
+    <center>
+      <div>
+        <img src="media/images/flappybird.png" id="slikica" />
+        <br />
+        <input type="text" placeholder="Username" id="ime" class="txt" />
+        <br />
+        <input type="password" placeholder="Password" id="sifra" class="txt" />
+        <br />
+        <input
+          type="button"
+          value="Login"
+          class="btn"
+          id="btn1"
+          onclick="login()"
+        />
+        <input
+          type="button"
+          value="Registriraj se!"
+          class="btn"
+          id="btn2"
+          onclick="regS()"
+        />
+      </div>
+    </center>
+    <script src="js/login.js"></script>
+  </body>
+</html>
